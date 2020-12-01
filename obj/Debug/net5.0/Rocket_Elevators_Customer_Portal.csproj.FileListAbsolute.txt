@@ -152,3 +152,4 @@ C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\A
 C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Views\Home\Intervention.cshtml.g.cs
 C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Views\Home\Test.cshtml.g.cs
