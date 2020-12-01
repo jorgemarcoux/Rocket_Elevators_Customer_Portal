@@ -149,6 +149,9 @@ C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\bin\Debug\net5.0\Rocket_
 C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Rocket_Elevators_Customer_Portal.genruntimeconfig.cache
 C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
-C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Views\Home\Intervention.cshtml.g.cs
-C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
