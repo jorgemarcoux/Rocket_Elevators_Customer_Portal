@@ -1,10 +1,10 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Encodings.Web;
 
-namespace Rocket_Elevators_Customer_Portal.Controllers
+namespace Product.Controllers
 {
 
-    public class InterventionFormController : Controller
+    public class PorductController : Controller
     {
         public IActionResult Index()
         {

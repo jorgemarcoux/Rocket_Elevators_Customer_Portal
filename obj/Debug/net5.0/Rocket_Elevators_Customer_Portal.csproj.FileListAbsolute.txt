@@ -190,3 +190,4 @@ C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\A
 C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\_StatusMessage.cshtml.g.cs
 C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
 C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Areas\Identity\Pages\Account\Manage\_LoginPartial.cshtml.g.cs
+C:\Users\Jorge\Desktop\Rocket_Elevators_Customer_Portal\obj\Debug\net5.0\Razor\Views\Home\Test.cshtml.g.cs

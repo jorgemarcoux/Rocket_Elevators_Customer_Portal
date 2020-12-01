@@ -24,6 +24,7 @@ namespace Rocket_Elevators_Customer_Portal
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddRazorPages();
             
 
         }
@@ -54,6 +55,7 @@ namespace Rocket_Elevators_Customer_Portal
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
         }
     }
