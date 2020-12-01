@@ -24,6 +24,8 @@ namespace Rocket_Elevators_Customer_Portal
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
