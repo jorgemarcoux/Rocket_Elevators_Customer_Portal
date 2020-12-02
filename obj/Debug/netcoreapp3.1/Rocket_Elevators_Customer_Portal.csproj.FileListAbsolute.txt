@@ -395,7 +395,6 @@ C:/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/obj/Debug/netcoreapp3.1/
 /mnt/c/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
 /mnt/c/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Intervention.cshtml.g.cs
 /mnt/c/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
-/mnt/c/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Test.cshtml.g.cs
 /mnt/c/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
 /mnt/c/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
 /mnt/c/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_LoginPartial.cshtml.g.cs
@@ -411,3 +410,8 @@ C:/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/obj/Debug/netcoreapp3.1/
 /mnt/c/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/obj/Debug/netcoreapp3.1/Rocket_Elevators_Customer_Portal.dll
 /mnt/c/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/obj/Debug/netcoreapp3.1/Rocket_Elevators_Customer_Portal.pdb
 /mnt/c/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/obj/Debug/netcoreapp3.1/Rocket_Elevators_Customer_Portal.genruntimeconfig.cache
+/mnt/c/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Batteries.cshtml.g.cs
+/mnt/c/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Columns.cshtml.g.cs
+/mnt/c/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/obj/Debug/netcoreapp3.1/Razor/Views/Home/EditProfile.cshtml.g.cs
+/mnt/c/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Elevators.cshtml.g.cs
+/mnt/c/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/obj/Debug/netcoreapp3.1/Razor/Views/Home/Portal.cshtml.g.cs

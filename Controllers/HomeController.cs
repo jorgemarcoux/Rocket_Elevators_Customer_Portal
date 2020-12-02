@@ -38,7 +38,22 @@ namespace Rocket_Elevators_Customer_Portal.Controllers
             return View();
         }
 
-        public IActionResult Test()
+        public IActionResult Batteries()
+        {
+            return View();
+        }
+
+        public IActionResult Columns()
+        {
+            return View();
+        }
+
+        public IActionResult Elevators()
+        {
+            return View();
+        }
+
+        public IActionResult Portal()
         {
             return View();
         }

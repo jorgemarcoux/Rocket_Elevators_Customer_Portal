@@ -12,11 +12,6 @@ namespace Rocket_Elevators_Customer_Portal.Controllers
             return View();
         }
 
-        public IActionResult Welcome()
-        {
-            ViewData["Message"] = "Your welcome message";
-
-            return View();
-        }
+        
     }
 }
