@@ -8842,31 +8842,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jorge\\.nuget\\packages\\": {}
+    "/home/jmarcoux/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jorge\\Desktop\\Rocket_Elevators_Customer_Portal\\Rocket_Elevators_Customer_Portal.csproj",
+      "projectUniqueName": "/mnt/c/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/Rocket_Elevators_Customer_Portal.csproj",
       "projectName": "Rocket_Elevators_Customer_Portal",
-      "projectPath": "C:\\Users\\Jorge\\Desktop\\Rocket_Elevators_Customer_Portal\\Rocket_Elevators_Customer_Portal.csproj",
-      "packagesPath": "C:\\Users\\Jorge\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jorge\\Desktop\\Rocket_Elevators_Customer_Portal\\obj\\",
+      "projectPath": "/mnt/c/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/Rocket_Elevators_Customer_Portal.csproj",
+      "packagesPath": "/home/jmarcoux/.nuget/packages/",
+      "outputPath": "/mnt/c/Users/Jorge/Desktop/Rocket_Elevators_Customer_Portal/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jorge\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/jmarcoux/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -8878,7 +8875,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
             "target": "Package",
@@ -8931,7 +8927,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
       }
     }
   }
