@@ -29,9 +29,6 @@
       <li class="nav-item d-sm-inline-block">
         <partial name="_LoginPartial" />
       </li>
-      <li>
-        <a class="nav-link text-dark" asp-area="Home" asp-page="/views/Home/Test">Test</a>
-      </li>
     </ul>
 
     
@@ -51,10 +48,9 @@
       <!-- Sidebar Menu -->
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-          <!-- Add icons to the links using the .nav-icon class
-               with font-awesome or any other icon font library -->
-               @if (User.Identity.IsAuthenticated)
-           {
+          <!-- Show pages menu once user is loged in -->
+        @if (User.Identity.IsAuthenticated)
+        { 
           <li class="nav-item menu-open">
             <a href="#" class="nav-link active">
               <i class="nav-icon fas fa-tachometer-alt"></i>
@@ -87,7 +83,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="home/intervention" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Intervention Form
@@ -102,7 +98,7 @@
               </p>
             </a>
           </li>
-           }
+        }
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
