@@ -4,16 +4,15 @@ xhr.onreadystatechange = function() {
      var parsedResponse = JSON.parse(xhr.responseText);
      var result = '';
      for(var i in parsedResponse){
-        result += '<ul>'+
-        '<li>ID: '+parsedResponse[i].id+'</li>'+
-        '<li>Namme: '+parsedResponse[i].name+'</li>'+
-        '<li>Email: '+parsedResponse[i].email+'</li>'+
-        '</ul>';
+        result += "<tr>";
+        result += "<td>"+parsedResponse[i].id+"</td>";
+        result += "<td>"+parsedResponse[i].name+"</td></tr>";
+
      }
-     document.getElementById('test').innerHTML = result;
+     document.getElementById('columnData').innerHTML = result;
   }
 };
-xhr.open('GET', 'https://jsonplaceholder.typicode.com/users?email=Shanna@melissa.tv');
+xhr.open('GET', 'https://jsonplaceholder.typicode.com/users');
 xhr.send();
 
 
