@@ -50,8 +50,8 @@
                     <div class="col-sm-3">
                       <h6 class="mb-0">Company Contact Full Name</h6>
                     </div>
-                    <div class="col-sm-9 text-secondary" id="company_contact_name">
-                      Kenneth Valdez  
+                    <div class="col-sm-9 text-secondary" >
+                       <input type="text" name="txt" id="company_contact_name" value="" onchange="getNameValue()" readonly>  
                     </div>
                   </div>
                   <hr>
@@ -59,8 +59,8 @@
                     <div class="col-sm-3">
                       <h6 class="mb-0">Company Contact Phone</h6>
                     </div>
-                    <div class="col-sm-9 text-secondary" id="company_contact_phone">
-                      418-987-2658 
+                    <div class="col-sm-9 text-secondary">
+                      <input type="text" name="txt" id="company_contact_phone" value="" onchange="getInfoValues(this.value)" readonly> 
                     </div>
                   </div>
                   <hr>
@@ -68,8 +68,8 @@
                     <div class="col-sm-3">
                       <h6 class="mb-0">Company Description</h6>
                     </div>
-                    <div class="col-sm-9 text-secondary" id="company_desc">
-                      Best compnay ever  
+                    <div class="col-sm-9 text-secondary">
+                      <input type="text" name="txt" id="company_desc" value="" onchange="getInfoValues(this.value)" readonly>   
                     </div>
                   </div>
                   <hr>
@@ -77,8 +77,8 @@
                     <div class="col-sm-3">
                       <h6 class="mb-0">Technical Authority Phone Number</h6>
                     </div>
-                    <div class="col-sm-9 text-secondary" id="company_tech_phone">
-                      (320) 380-4539 
+                    <div class="col-sm-9 text-secondary">
+                      <input type="text" name="txt" id="company_tech_phone" value="" onchange="getInfoValues(this.value)" readonly> 
                     </div>
                   </div>
                   <hr>
@@ -86,8 +86,8 @@
                     <div class="col-sm-3">
                       <h6 class="mb-0">Technical Manager Email Service</h6>
                     </div>
-                    <div class="col-sm-9 text-secondary" id="tech_manager_mail">
-                      email@service.com 
+                    <div class="col-sm-9 text-secondary">
+                      <input type="text" name="txt" id="tech_manager_mail" value="" onchange="getInfoValues(this.value)" readonly>
                     </div>
                   </div>
                 </div>
@@ -104,6 +104,7 @@
                  <table id="tableAddr" class="table table-stripped">
                    <thead class="bg-primary">
                      <tr>
+                         <th scope="col">ID</th>
                          <th scope="col">Type of Address</th>
                          <th scope="col">Number and Street</th>
                          <th scope="col">Suite or Apartment</th>

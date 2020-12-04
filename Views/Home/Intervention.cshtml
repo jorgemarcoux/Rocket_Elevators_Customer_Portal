@@ -13,7 +13,7 @@
                        <br/>
                        <label for="building_id" class="" id="build_label">Select Building</label>
                        <div class="dropdown">
-                         <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         <button class="btn btn-danger dropdown-toggle" type="button" id="select_build" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                            Select Building
                          </button>
 					               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -26,7 +26,7 @@
                        <br/>
                        <label for="battery_id" class="" id="bat_label">Select Battery</label>
 					             <div class="dropdown">
-                         <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         <button class="btn btn-danger dropdown-toggle" type="button" id="select_batn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                            Select Battery
                          </button>
 					               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -39,7 +39,7 @@
                        <br/>
                        <label for="column_id" class="" id="col_label">Select Column</label>
 					             <div class="dropdown">
-                         <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         <button class="btn btn-danger dropdown-toggle" type="button" id="select_col" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                            Select Column
                          </button>
 					               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -52,7 +52,7 @@
                        <br/>
                        <label for="elevator_id" class="" id="elev_label">Select Lift</label>
 					             <div class="dropdown">
-                         <button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                         <button class="btn btn-danger dropdown-toggle" type="button" id="select-elev" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                            Select Elevator
                          </button>
 					               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
@@ -66,7 +66,7 @@
                        <label for="report">Intervention Description</label>
                        <input required type="text" value="" class="form-control" name="report" id="descrFrm">
                        <!--Hidden field to get current_user_id-->
-                       <input name="author" id="current_author" class="d-none" value="<%=current_user.id %>"> 
+                       <input name="author" id="current_author" class="" value=""> 
                        <br/>
                        <button type="submit" class="btn btn-danger" id="btnInter" style="background-color:#EB2C55;"><i class="fa fa-check"></i>SUBMIT</button>                  
                     </form>
@@ -77,11 +77,10 @@
 <!---TEST SECTION AJAX CALL API-->
 <p id="test"></p>  
 
-<script src="~/js/ajax-calls.js"></script>
+<script src="~/js/intervention-form.js"></script>
 
 <!---/TEST SECTION AJAX CALL API-->
 <!-- jQuery -->
-<script src="~/lib/jquerry/dist/jquery.min.js"></script>
 <script src="~/js/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
 <script src="~/js/bootstrap.bundle.min.js"></script>

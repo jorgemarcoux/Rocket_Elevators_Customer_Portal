@@ -39,7 +39,7 @@ bat.onreadystatechange = function() {
      document.getElementById('total-bat').innerHTML = numberbats;
   }
 };
-bat.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/batteries');
+//bat.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/batteries/building/1');
 bat.send();
 
 
@@ -66,7 +66,7 @@ col.onreadystatechange = function() {
      document.getElementById('total-col').innerHTML = numberColumns;
   }
 };
-col.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/columns');
+//col.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/columns/battery/1');
 col.send();
 
 
@@ -94,9 +94,10 @@ elev.onreadystatechange = function() {
      }
      document.getElementById('elevatorsData').innerHTML = allElevators;
      document.getElementById("total-elev").innerHTML = numberElevators;
+     document.getElementById("total-elev").innerHTML ='hola';
   }
 };
-elev.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/elevators');
+//elev.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/elevators/column/1');
 elev.send();
 
 
