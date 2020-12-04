@@ -4,7 +4,26 @@
    <hr />
 </header>
 
-<div id="allBatteries">
+<div class="container">
+  <table id="tableBat" class="table table-stripped">
+    <thead class="bg-primary">
+      <tr>
+          <th scope="col">ID</th>
+          <th scope="col">Building ID</th>
+          <th scope="col">Battery Type</th>
+          <th scope="col">Status</th>
+          <th scope="col">Certificate of Operations</th>
+          <th scope="col">Date of Commissioning</th>
+          <th scope="col">Date of Last Inspection</th>
+          <th scope="col">Information</th>
+          <th scope="col">Updated At</th>
+      </tr>
+    </thead>
+    <tbody id="batteriesData">    
+    
+       </tbody>
+
+  </table>
 </div>
 
 <script src="~/js/ajax-calls.js"></script>
