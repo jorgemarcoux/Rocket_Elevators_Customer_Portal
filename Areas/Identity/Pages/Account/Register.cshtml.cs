@@ -63,6 +63,7 @@ namespace Rocket_Elevators_Customer_Portal.Areas.Identity.Pages.Account
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
             public string ConfirmPassword { get; set; }
         }
+        
 
         public async Task OnGetAsync(string returnUrl = null)
         {
@@ -87,6 +88,17 @@ namespace Rocket_Elevators_Customer_Portal.Areas.Identity.Pages.Account
                     var result = await _userManager.CreateAsync(user, Input.Password);
                     if (result.Succeeded)
                     {
+                     //Added after 1st deploy problem
+                            var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+                    var callbackUrl = Url.Page(
+                        "/Account/ConfirmEmail",
+                        pageHandler: null,
+                        values: new { userId = user.Id, code = code },
+                        protocol: Request.Scheme);
+
+                    await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
+                        $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+                        //End
                             await _signInManager.SignInAsync(user, isPersistent: false);
                             return LocalRedirect(returnUrl);
                     }

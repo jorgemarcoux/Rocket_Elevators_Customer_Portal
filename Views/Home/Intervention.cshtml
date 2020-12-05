@@ -8,68 +8,42 @@
 				<!-- FORM -->
 					<div class="container col-5 mb-5 text-center">
                      <form action="/interventions" method="POST" enctype="multipart/form-data" id="intForm">
-                       <input name="customer_id" id="customerId" class="d-none" value="<%=current_user.id %>">
+
                        <br/>
                        <br/>
-                       <label for="building_id" class="" id="build_label">Select Building</label>
-                       <div class="dropdown">
-                         <button class="btn btn-danger dropdown-toggle" type="button" id="select_build" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                           Select Building
-                         </button>
-					               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                           <a class="dropdown-item" href="#">Building 1</a>
-                           <a class="dropdown-item" href="#">Building 2</a>
-                           <a class="dropdown-item" href="#">Building 3</a>
-                         </div>
-                       </div>
+                       <label for="building_id" class="bg-danger text-white" id="build_label">Select Building</label>
+                       <br/>
+					             <select id="select_build" >
+                       </select>
                        <br/>
                        <br/>
-                       <label for="battery_id" class="" id="bat_label">Select Battery</label>
-					             <div class="dropdown">
-                         <button class="btn btn-danger dropdown-toggle" type="button" id="select_batn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                           Select Battery
-                         </button>
-					               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                           <a class="dropdown-item" href="#">Battery 1</a>
-                           <a class="dropdown-item" href="#">Battery 2</a>
-                           <a class="dropdown-item" href="#">Battery 3</a>
-                         </div>
-                       </div>
+                       <label for="battery_id" class="bg-danger text-white" id="bat_label">Select Battery</label>
+                       <br/>
+					               <select id="select_bat" >
+                         </select>
                        <br/>
                        <br/>
-                       <label for="column_id" class="" id="col_label">Select Column</label>
-					             <div class="dropdown">
-                         <button class="btn btn-danger dropdown-toggle" type="button" id="select_col" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                           Select Column
-                         </button>
-					               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                           <a class="dropdown-item" href="#">Column 1</a>
-                           <a class="dropdown-item" href="#">Column 2</a>
-                           <a class="dropdown-item" href="#">Column 3</a>
-                         </div>
-                       </div>
+                       <label for="column_id" class="bg-danger text-white" id="col_label">Select Column</label>
+                       <br/>
+					               <select id='select_col' >
+                         </select>
                        <br/>
                        <br/>
-                       <label for="elevator_id" class="" id="elev_label">Select Lift</label>
-					             <div class="dropdown">
-                         <button class="btn btn-danger dropdown-toggle" type="button" id="select-elev" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                           Select Elevator
-                         </button>
-					               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                           <a class="dropdown-item" href="#">Elevator 1</a>
-                           <a class="dropdown-item" href="#">Elevator 2</a>
-                           <a class="dropdown-item" href="#">Elevator 3</a>
-                         </div>
-                       </div>
+                       <label for="elevator_id" class="bg-danger text-white" id="elev_label">Select Lift</label>
+                       <br/>
+					               <select id="select_elev">
+                         </select>
                        <br/>
                        <br/>
                        <label for="report">Intervention Description</label>
                        <input required type="text" value="" class="form-control" name="report" id="descrFrm">
                        <!--Hidden field to get current_user_id-->
-                       <input name="author" id="current_author" class="" value=""> 
+                       <input name="author" id="current_author" class="d-none" value=""> 
                        <br/>
                        <button type="submit" class="btn btn-danger" id="btnInter" style="background-color:#EB2C55;"><i class="fa fa-check"></i>SUBMIT</button>                  
                     </form>
+
+                    <p id='customer-id-p' class="d-nonde"></p>
                     
             </div>
        </div>

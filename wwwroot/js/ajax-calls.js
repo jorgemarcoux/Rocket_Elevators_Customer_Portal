@@ -1,19 +1,15 @@
-var xhr = new XMLHttpRequest();
-xhr.onreadystatechange = function() {
-   if(this.readyState == 4 && this.status == 200){
-     var parsedResponse = JSON.parse(xhr.responseText);
-     var result = '';
-     for(var i in parsedResponse){
-        result += "<tr>";
-        result += "<td>"+parsedResponse[i].id+"</td>";
-        result += "<td>"+parsedResponse[i].name+"</td></tr>";
-
-     }
-     document.getElementById('columnData').innerHTML = result;
-  }
+//Sending current user email AJAX call and getting back id
+var currentCustomer = new XMLHttpRequest();
+currentCustomer.onreadystatechange = function() {
+if (currentCustomer.readyState === 4){
+   customerResponse = JSON.parse(currentCustomer.responseText)
+   var customerID = parseInt(customerResponse[0].id, 10);
+   $("#current_author").val(customerID);
+   $("#customer-id-p").text(customerID);
+}
 };
-xhr.open('GET', 'https://jsonplaceholder.typicode.com/users');
-xhr.send();
+currentCustomer.open('GET', `https://consolidation-jorge-rest.azurewebsites.net/api/customers/find/${curentCostomerEmail}`);
+currentCustomer.send();
 
 
 //Batteries product page AJAX call
@@ -39,7 +35,7 @@ bat.onreadystatechange = function() {
      document.getElementById('total-bat').innerHTML = numberbats;
   }
 };
-//bat.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/batteries/building/1');
+bat.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/batteries/building/1');
 bat.send();
 
 
