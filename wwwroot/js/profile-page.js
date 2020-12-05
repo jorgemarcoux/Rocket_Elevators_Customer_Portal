@@ -28,7 +28,7 @@ document.getElementById('company_tech_phone').setAttribute('value', customerInfo
 document.getElementById('tech_manager_mail').setAttribute('value', customerInfo.technicalManagerEmailService);
 }
 };
-//custmr.open('GET', "https://consolidation-jorge-rest.azurewebsites.net/api/customers/2");
+custmr.open('GET', "https://consolidation-jorge-rest.azurewebsites.net/api/customers/2");
 custmr.send();
 
 //Send info from AJAX call to addresses table
@@ -53,7 +53,7 @@ if(this.readyState == 4 && this.status == 200){
    
 }
 };
-//adrs.open('GET', "https://consolidation-jorge-rest.azurewebsites.net/api/addresses/customer/2");
+adrs.open('GET', "https://consolidation-jorge-rest.azurewebsites.net/api/addresses");
 adrs.send();
 
 

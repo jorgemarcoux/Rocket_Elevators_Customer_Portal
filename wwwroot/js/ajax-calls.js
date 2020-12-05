@@ -1,16 +1,3 @@
-//Sending current user email AJAX call and getting back id
-var currentCustomer = new XMLHttpRequest();
-currentCustomer.onreadystatechange = function() {
-if (currentCustomer.readyState === 4){
-   customerResponse = JSON.parse(currentCustomer.responseText)
-   var customerID = parseInt(customerResponse[0].id, 10);
-   $("#current_author").val(customerID);
-   $("#customer-id-p").text(customerID);
-}
-};
-currentCustomer.open('GET', `https://consolidation-jorge-rest.azurewebsites.net/api/customers/find/${curentCostomerEmail}`);
-currentCustomer.send();
-
 
 //Batteries product page AJAX call
 var bat = new XMLHttpRequest();
@@ -35,7 +22,7 @@ bat.onreadystatechange = function() {
      document.getElementById('total-bat').innerHTML = numberbats;
   }
 };
-bat.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/batteries/building/1');
+bat.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/batteries');
 bat.send();
 
 
@@ -62,7 +49,7 @@ col.onreadystatechange = function() {
      document.getElementById('total-col').innerHTML = numberColumns;
   }
 };
-//col.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/columns/battery/1');
+col.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/columns');
 col.send();
 
 
@@ -93,7 +80,7 @@ elev.onreadystatechange = function() {
      document.getElementById("total-elev").innerHTML ='hola';
   }
 };
-//elev.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/elevators/column/1');
+elev.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/elevators');
 elev.send();
 
 
