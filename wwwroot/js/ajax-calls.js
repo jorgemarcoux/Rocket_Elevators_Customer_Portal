@@ -1,20 +1,3 @@
-var xhr = new XMLHttpRequest();
-xhr.onreadystatechange = function() {
-   if(this.readyState == 4 && this.status == 200){
-     var parsedResponse = JSON.parse(xhr.responseText);
-     var result = '';
-     for(var i in parsedResponse){
-        result += "<tr>";
-        result += "<td>"+parsedResponse[i].id+"</td>";
-        result += "<td>"+parsedResponse[i].name+"</td></tr>";
-
-     }
-     document.getElementById('columnData').innerHTML = result;
-  }
-};
-xhr.open('GET', 'https://jsonplaceholder.typicode.com/users');
-xhr.send();
-
 
 //Batteries product page AJAX call
 var bat = new XMLHttpRequest();
@@ -39,7 +22,7 @@ bat.onreadystatechange = function() {
      document.getElementById('total-bat').innerHTML = numberbats;
   }
 };
-//bat.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/batteries/building/1');
+bat.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/batteries');
 bat.send();
 
 
@@ -66,7 +49,7 @@ col.onreadystatechange = function() {
      document.getElementById('total-col').innerHTML = numberColumns;
   }
 };
-//col.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/columns/battery/1');
+col.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/columns');
 col.send();
 
 
@@ -97,7 +80,7 @@ elev.onreadystatechange = function() {
      document.getElementById("total-elev").innerHTML ='hola';
   }
 };
-//elev.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/elevators/column/1');
+elev.open('GET', 'https://consolidation-jorge-rest.azurewebsites.net/api/elevators');
 elev.send();
 
 
